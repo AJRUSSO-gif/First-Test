@@ -1,0 +1,133 @@
+2025-10-21T22:30:28.043551-04:00 Dr3adpirateaj systemd-logind[202]: New seat seat0.
+2025-10-21T22:30:30.088982-04:00 Dr3adpirateaj login[350]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-10-21T22:30:30.089305-04:00 Dr3adpirateaj login[350]: PAM adding faulty module: pam_lastlog.so
+2025-10-21T22:30:30.412967-04:00 Dr3adpirateaj login[350]: pam_unix(login:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T22:30:30.470085-04:00 Dr3adpirateaj systemd-logind[202]: New session 1 of user root.
+2025-10-21T22:30:30.480750-04:00 Dr3adpirateaj (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T22:30:30.623852-04:00 Dr3adpirateaj login[416]: ROOT LOGIN  on '/dev/pts/1'
+2025-10-21T22:31:24.778959-04:00 Dr3adpirateaj systemd-logind[186]: New seat seat0.
+2025-10-21T22:31:25.549813-04:00 Dr3adpirateaj login[293]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-10-21T22:31:25.549926-04:00 Dr3adpirateaj login[293]: PAM adding faulty module: pam_lastlog.so
+2025-10-21T22:31:25.591696-04:00 Dr3adpirateaj login[293]: pam_unix(login:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T22:31:25.670121-04:00 Dr3adpirateaj systemd-logind[186]: New session 3 of user root.
+2025-10-21T22:31:25.745733-04:00 Dr3adpirateaj (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T22:34:14.340354-04:00 Dr3adpirateaj login[350]: ROOT LOGIN  on '/dev/pts/1'
+2025-10-21T22:31:26.206720-04:00 Dr3adpirateaj groupadd[376]: group added to /etc/group: name=arusso75, GID=1000
+2025-10-21T22:31:26.210681-04:00 Dr3adpirateaj groupadd[376]: group added to /etc/gshadow: name=arusso75
+2025-10-21T22:31:26.213019-04:00 Dr3adpirateaj groupadd[376]: new group: name=arusso75, GID=1000
+2025-10-21T22:31:26.243373-04:00 Dr3adpirateaj useradd[383]: new user: name=arusso75, UID=1000, GID=1000, home=/home/arusso75, shell=/bin/bash, from=/dev/pts/0
+2025-10-21T22:31:53.217101-04:00 Dr3adpirateaj passwd[396]: pam_unix(passwd:chauthtok): password changed for arusso75
+2025-10-21T22:31:53.239805-04:00 Dr3adpirateaj chfn[406]: changed user 'arusso75' information
+2025-10-21T22:31:53.281002-04:00 Dr3adpirateaj gpasswd[414]: members of group users set by root to arusso75
+2025-10-21T22:31:53.401156-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'adm'
+2025-10-21T22:31:53.401228-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'dialout'
+2025-10-21T22:31:53.401242-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'cdrom'
+2025-10-21T22:31:53.401255-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'floppy'
+2025-10-21T22:31:53.401300-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'sudo'
+2025-10-21T22:31:53.401313-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'audio'
+2025-10-21T22:31:53.401326-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'dip'
+2025-10-21T22:31:53.401338-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'video'
+2025-10-21T22:31:53.401356-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'plugdev'
+2025-10-21T22:31:53.401392-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to group 'netdev'
+2025-10-21T22:31:53.401406-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'adm'
+2025-10-21T22:31:53.401419-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'dialout'
+2025-10-21T22:31:53.401431-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'cdrom'
+2025-10-21T22:31:53.401442-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'floppy'
+2025-10-21T22:31:53.401454-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'sudo'
+2025-10-21T22:31:53.401485-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'audio'
+2025-10-21T22:31:53.401514-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'dip'
+2025-10-21T22:31:53.401530-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'video'
+2025-10-21T22:31:53.401543-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'plugdev'
+2025-10-21T22:31:53.401572-04:00 Dr3adpirateaj usermod[425]: add 'arusso75' to shadow group 'netdev'
+2025-10-21T22:31:54.597914-04:00 Dr3adpirateaj systemd-logind[179]: New seat seat0.
+2025-10-21T22:31:55.339160-04:00 Dr3adpirateaj login[287]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-10-21T22:31:55.339269-04:00 Dr3adpirateaj login[287]: PAM adding faulty module: pam_lastlog.so
+2025-10-21T22:31:55.604698-04:00 Dr3adpirateaj login[287]: pam_unix(login:session): session opened for user arusso75(uid=1000) by arusso75(uid=0)
+2025-10-21T22:31:55.677196-04:00 Dr3adpirateaj systemd-logind[179]: New session 5 of user arusso75.
+2025-10-21T22:31:55.701540-04:00 Dr3adpirateaj (systemd): pam_unix(systemd-user:session): session opened for user arusso75(uid=1000) by arusso75(uid=0)
+2025-10-21T22:35:00.070244-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt update
+2025-10-21T22:35:00.070989-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:35:05.016334-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:05.016874-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:05.022379-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:05.024038-04:00 Dr3adpirateaj polkitd[790]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-10-21T22:35:10.915220-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:35:10.920703-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2025-10-21T22:35:10.921381-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:35:30.254594-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:30.254726-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:30.254791-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:30.254853-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:30.256222-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:30.256329-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:30.256367-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:30.256439-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:30.256484-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:30.257515-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:57.259137-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:57.259232-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:57.259249-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:57.259263-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:57.260356-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:57.260410-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:57.260441-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:57.260455-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:57.260468-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:57.261096-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:57.261146-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:57.261162-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:57.261192-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:57.261205-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:57.261960-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:57.262009-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:57.262023-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:57.262035-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:57.262047-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:57.262949-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:58.411351-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:58.411473-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:58.411498-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:58.411521-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:58.413560-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:35:58.413692-04:00 Dr3adpirateaj polkitd[790]: Reloading rules
+2025-10-21T22:35:58.413724-04:00 Dr3adpirateaj polkitd[790]: Collecting garbage unconditionally...
+2025-10-21T22:35:58.413781-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:35:58.413799-04:00 Dr3adpirateaj polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:35:58.416084-04:00 Dr3adpirateaj polkitd[790]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:36:18.041307-04:00 Dr3adpirateaj polkitd[6787]: Loading rules from directory /etc/polkit-1/rules.d
+2025-10-21T22:36:18.041379-04:00 Dr3adpirateaj polkitd[6787]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-10-21T22:36:18.042921-04:00 Dr3adpirateaj polkitd[6787]: Finished loading, compiling and executing 4 rules
+2025-10-21T22:36:18.044437-04:00 Dr3adpirateaj polkitd[6787]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-10-21T22:36:28.316714-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:36:28.339778-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2025-10-21T22:36:28.339870-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:36:31.323735-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:36:43.377648-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt install -y curl wget git build-essential net-tools vim htop unzip
+2025-10-21T22:36:43.378772-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:37:00.176952-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:39:22.114015-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt install -y nmap tcpdump traceroute whois
+2025-10-21T22:39:22.115056-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:39:26.843794-04:00 Dr3adpirateaj groupadd[8521]: group added to /etc/group: name=rdma, GID=108
+2025-10-21T22:39:26.848027-04:00 Dr3adpirateaj groupadd[8521]: group added to /etc/gshadow: name=rdma
+2025-10-21T22:39:26.851220-04:00 Dr3adpirateaj groupadd[8521]: new group: name=rdma, GID=108
+2025-10-21T22:39:27.104061-04:00 Dr3adpirateaj groupadd[8544]: group added to /etc/group: name=tcpdump, GID=109
+2025-10-21T22:39:27.107558-04:00 Dr3adpirateaj groupadd[8544]: group added to /etc/gshadow: name=tcpdump
+2025-10-21T22:39:27.109770-04:00 Dr3adpirateaj groupadd[8544]: new group: name=tcpdump, GID=109
+2025-10-21T22:39:27.175882-04:00 Dr3adpirateaj useradd[8556]: new user: name=tcpdump, UID=105, GID=109, home=/nonexistent, shell=/usr/sbin/nologin, from=/dev/pts/3
+2025-10-21T22:39:28.591879-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:48:30.891083-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt install -y python3-pip
+2025-10-21T22:48:30.898414-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:48:38.568743-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:49:03.828732-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt install -y netcat nmap dnsutils whois tcpdump traceroute openssh-client
+2025-10-21T22:49:03.829601-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:49:04.144949-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:49:38.584035-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/apt install -y jq python3-venv
+2025-10-21T22:49:38.585076-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:49:41.023933-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T22:52:35.029414-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75 ; USER=root ; COMMAND=/usr/bin/ls -la /home/arusso75/.ssh
+2025-10-21T22:52:35.031127-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2025-10-21T22:52:35.035036-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T23:17:01.152448-04:00 Dr3adpirateaj CRON[10030]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T23:17:01.161987-04:00 Dr3adpirateaj CRON[10030]: pam_unix(cron:session): session closed for user root
+2025-10-21T23:39:49.434317-04:00 Dr3adpirateaj sudo: arusso75 : TTY=pts/0 ; PWD=/home/arusso75/First-Test ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/arusso75/First-Test/auth_copy.log
+2025-10-21T23:39:49.435775-04:00 Dr3adpirateaj sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
